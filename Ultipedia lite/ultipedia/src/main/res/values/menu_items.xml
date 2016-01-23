@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choosePlay">PLAY</string>
+    <string name="chooseScores">VIEW SCORES</string>
+    <string name="chooseHelp">HELP</string>
+    <string name="chooseSettings">SETTINGS</string>
+    <string name="Math">MATH</string>
+    <string name="Eng">ENGLISH</string>
+    <string name="Kis">KISWAHILI</string>
+    <string name="Sci">SCIENCE</string>
+    <string name="SST">SOCIAL STUDIES</string>
+    <string name="CRE">CRE</string>
+    <string name="helpScr">ULTIPEDIA
+        \n \tULTIPEDIA is a educational app that tries to make revision for Kenyan primary school students fun and interactive.
+        You ,the player, is taken through a set of mutiple choice questions and by correctly answering them gain points towards
+        being the Smartest and best prepared candidate.Ultipedia is not exclusively for Kenyan Primary school students but anyone can use it as 
+        measure to test their level of knowledge and understanding of simple concepts in various subject such as simple arithmetic and science.
+        The   game incoporates two modes:
+        \n
+        \nFUN MODE:
+        \n
+        \tThis is where you are taken through sets of six questions each.Each question derived out of respective subjects.Each set of questions consitute a level
+        The objective is to get to the most level by answering all  the questions in the set correctly.
+        \n
+        \n
+        \nSchool Mode:
+        \n
+        \n\tThis is where you choose a subject and then answer questions drawn from that specific subject a score is given after the questions are done.
+        \n
+        \n
+        \nHAVE FUN!!
+      </string>
+
+    <string name="setDialog">Welcome to ULtipedia</string>
+  <string name="setContent">New Player 
+                 \n          Welcome to Ultipedia
+                   \n Before you start playing please make sure you set your User Settings.
+                   \n To do this click Settings on the menu screen
+                  
+                  \nHAVE FUN!!
+                   
+      </string>
+
+
+</resources>

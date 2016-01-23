@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp" >
+
+    <TextView
+        android:id="@+id/header_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#25384c"
+        android:gravity="center"
+        android:minLines="2"
+        android:minWidth="50dp"
+        android:text="Rank"
+        android:textStyle="bold"
+        android:textColor="#FeFeFe" />
+
+    <TextView
+        android:id="@+id/header_score"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="#e9e9e9"
+        android:gravity="center"
+        android:minLines="2"
+        android:minWidth="100dp"
+        android:text="Score"
+           android:textStyle="bold"
+        android:textColor="#555555" />
+
+    <TextView
+        android:id="@+id/header_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/header_score"
+        android:layout_toRightOf="@+id/header_rank"
+          android:textStyle="bold"
+        android:background="#e0e0e0"
+        android:minLines="2"
+        android:text="Name"
+         android:gravity="center"
+        android:textColor="#555555" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Amu/AndroidstudioProjects/Ultipedia%20lite1/ultipedialite/src/main/res/layout/score_header.xml -->

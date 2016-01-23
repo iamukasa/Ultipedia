@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.amusoft.ultipedia.LeaderBoard">
+    <item android:id="@+id/FunMode" android:title="Fun"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/MathMode" android:title="Math"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/EngMode" android:title="English"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/KisMode" android:title="Kiswahili"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/SciMode" android:title="Science"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/SociMode" android:title="Social Studies"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/Cre" android:title="CRE"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    
+    >
+<Button
+    android:id="@+id/math"
+    style="@style/CustomFontStyle"
+    android:background="@drawable/math"
+
+/>
+<Button
+     android:id="@+id/eng"
+    style="@style/CustomFontStyle"
+    
+        android:background="@drawable/eng"
+
+    
+/>
+<Button
+     android:id="@+id/kis"
+    style="@style/CustomFontStyle"
+   
+        android:background="@drawable/kis"
+
+    
+/>
+<Button
+     android:id="@+id/sci"
+    style="@style/CustomFontStyle"
+    
+        android:background="@drawable/sci"
+
+    
+/>
+<Button
+     android:id="@+id/sst"
+    style="@style/CustomFontStyle"
+   
+        android:background="@drawable/social"
+
+    
+/>
+<Button
+ android:id="@+id/cre"
+    style="@style/CustomFontStyle"
+    
+        android:background="@drawable/cre"
+
+    
+/>
+   
+</LinearLayout><!-- From: file:/C:/Users/Amu/AndroidstudioProjects/Ultipedia%20lite1/ultipedialite/src/main/res/layout/activity_subject_picker.xml -->

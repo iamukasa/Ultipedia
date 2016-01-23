@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        applicationId "com.amusoft.ultipedia"
+        minSdkVersion 8
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.google.android.gms:play-services:+'
+    compile 'com.android.support:appcompat-v7:19.1.0'
+    compile files('libs/App42_ANDROID_SDK_3.2.jar')
+    compile files('libs/bolts-android-1.1.4-javadoc.jar')
+    compile files('libs/bolts-android-1.1.4.jar')
+    compile files('libs/Parse-1.8.2.jar')
+    compile files('libs/ParseCrashReporting-1.8.2.jar')
+    compile files('libs/gcm.jar')
+
+}

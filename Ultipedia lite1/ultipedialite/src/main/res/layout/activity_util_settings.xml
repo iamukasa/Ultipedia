@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/background"
+     >
+
+    <ScrollView
+        android:id="@+id/ScrollSettings"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical" >
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" 
+                  >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/avatar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:adjustViewBounds="true"
+                    android:maxHeight="100dp"
+                    android:maxWidth="100dp"
+                    android:contentDescription="Avatar" 
+                    android:src="@drawable/avatar"
+                    android:scaleType="fitXY"
+                    
+                   
+                    />
+                
+                  <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+               android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:text="@string/Username" />
+
+                  <EditText
+                    android:id="@+id/EnterUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:inputType="textPersonName" 
+                    android:hint="@string/hintUsername"
+                    />
+                    <TextView
+            android:id="@+id/eror2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+                   </LinearLayout> 
+                   </LinearLayout>
+                     
+             <TextView
+                android:id="@+id/school"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/school" />
+
+            <EditText
+                android:id="@+id/enterschool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:hint="@string/hintschool" 
+                />
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Email" />
+
+            <EditText
+                android:id="@+id/enterEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="@string/hintEmail" 
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/SetPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/but"
+                    android:text="@string/password" />
+
+                <TextView
+                    android:id="@+id/ShowPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:inputType="textPassword"
+                    android:text="@string/password" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/SetDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/but"
+                    android:text="@string/pick" />
+
+                <TextView
+                    android:id="@+id/ShowDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/pick" />
+            </RelativeLayout>
+            
+              
+
+            <Button
+                android:id="@+id/saveSett"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sv"/>
+           
+           
+                
+        </LinearLayout>
+        
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:ignore="UselessParent">
+
+    <ScrollView
+        android:id="@+id/Scrollhelp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:overScrollMode="always"
+        android:scrollbars="vertical"
+
+
+        >
+
+        <TextView
+            android:id="@+id/txthelper"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:gravity="center_vertical"
+            android:includeFontPadding="true"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbars="vertical"
+            android:text="@string/helpScr"
+            android:textColor="#000000" />
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/home/irving/AndroidStudioProjects/Ultipedia%20lite/ultipedia/src/main/res/layout/activity_util_help.xml -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Amu/AndroidstudioProjects/Ultipedia%20lite/leaderBoardWidget/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background">#233233</color>
+    <color name="headerbackground">#456789</color>
+    <color name="listViewBg">#DADFEE</color>
+    <color name="textColor">#ffffff</color>
+    <!-- From: file:/C:/Users/Amu/AndroidstudioProjects/Ultipedia%20lite/leaderBoardWidget/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/Amu/AndroidstudioProjects/Ultipedia%20lite/leaderBoardWidget/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app42_scoreboard">App42 ScoreBoard</string>
+    <string name="app_name">LeaderBoard Widget</string>
+</resources>

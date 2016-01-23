@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   android:background="@drawable/background"
+    
+     >
+     <ImageView
+         android:id="@+id/ee"
+         style="@style/CustomFontStyle"
+         android:background="@drawable/ingine"
+         android:scaleType="fitStart"
+         
+      />
+         
+       <Button
+        android:id="@+id/play"
+        style="@style/CustomFontStyle"
+        android:background="@drawable/p"
+         android:scaleType="fitXY"
+       />
+           <Button
+        android:id="@+id/scores"
+        style="@style/CustomFontStyle"
+       android:background="@drawable/vcores"
+        android:scaleType="fitXY"
+        
+        />
+            <Button
+        android:id="@+id/help"
+        style="@style/CustomFontStyle"
+        android:background="@drawable/help"
+         android:scaleType="fitXY"
+       
+        />
+          <Button
+        android:id="@+id/settings"
+        style="@style/CustomFontStyle"
+        android:background="@drawable/sett"
+         android:scaleType="fitXY"
+       
+        />
+ 
+
+                
+           
+    
+    
+    
+ 
+</LinearLayout>
+<!-- From: file:/C:/Users/Amu/AndroidstudioProjects/Ultipedia/app/src/main/res/layout/activity_util_menu.xml -->

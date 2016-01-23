@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amusoft.ultipedia"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GALLERY" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!--
+     Creates a custom permission so only this app can receive its messages.
+
+     NOTE: the permission *must* be called PACKAGE.permission.C2D_MESSAGE,
+           where PACKAGE is the application's package name.
+    -->
+    <permission
+        android:name="com.amusoft.ultipedia.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.amusoft.ultipedialite.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ingine"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.amusoft.ultipedia.UltiSplash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.amusoft.ultipedia.QuizActivityMath" />
+        <activity android:name="com.amusoft.ultipedia.UtilScores" />
+        <activity android:name="com.amusoft.ultipedia.QuizActivity" />
+        <activity android:name="com.amusoft.ultipedia.QuizActivityKis" />
+        <activity android:name="com.amusoft.ultipedia.QuizActivitySci" />
+        <activity android:name="com.amusoft.ultipedia.QuizActivitySocial" />
+        <activity android:name="com.amusoft.ultipedia.QuizActivityCre" />
+        <activity android:name="com.amusoft.ultipedia.UtilMenu" />
+        <activity android:name="com.amusoft.ultipedia.QuizActivityEng" />
+        <activity
+            android:name="com.amusoft.ultipedia.LeaderBoardActivity"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.amusoft.ultipedia.Utilhelp"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity android:name="com.amusoft.ultipedia.UtilSettings" />
+        <activity
+            android:name="com.amusoft.ultipedia.UtilSubjectPicker"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.amusoft.ultipedia.UtilMode"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.amusoft.ultipedia.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.amusoft.ultipedia.MessageActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </activity>
+
+        <!--
+      BroadcastReceiver that will receive intents from GCM
+      services and handle them to the custom IntentService.
+
+      The com.google.android.c2dm.permission.SEND permission is necessary
+      so only GCM services can send data messages for the app.
+        -->
+        <receiver
+            android:name="com.amusoft.ultipedia.App42GCMReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <!-- Your package name here -->
+                <category android:name="com.amusoft.ultipedialite" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+          Application-specific subclass of GCMBaseIntentService that will
+          handle received messages.
+
+          By default, it must be named .GCMIntentService, unless the
+          application uses a custom BroadcastReceiver that redefines its name.
+        -->
+        <service android:name="com.amusoft.ultipedia.App42GCMService" >
+            <meta-data
+                android:name="onMessageOpen"
+                android:value="com.amusoft.ultipedia.MessageActivity" />
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

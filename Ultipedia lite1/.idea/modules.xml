@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ultipedia lite1.iml" filepath="$PROJECT_DIR$/Ultipedia lite1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leaderBoardWidget/leaderBoardWidget.iml" filepath="$PROJECT_DIR$/leaderBoardWidget/leaderBoardWidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ultipedialite/ultipedialite.iml" filepath="$PROJECT_DIR$/ultipedialite/ultipedialite.iml" />
+    </modules>
+  </component>
+</project>
+

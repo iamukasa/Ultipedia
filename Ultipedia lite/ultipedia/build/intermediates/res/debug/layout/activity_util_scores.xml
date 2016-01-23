@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </HorizontalScrollView>
+
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:id="@+id/Scrollfun"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scrollbars="vertical">
+
+                    <TableLayout
+                        android:id="@+id/TableLayout_FunScores"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:stretchColumns="*">
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/title_usn" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/lvl" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/title_sscr" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:id="@+id/nmf"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="username" />
+
+                            <TextView
+                                android:id="@+id/hilvlf"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="level" />
+
+                            <TextView
+                                android:id="@+id/scoref"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="score" />
+                        </TableRow>
+                    </TableLayout>
+                </ScrollView>
+
+                <ScrollView
+                    android:id="@+id/ScrollSchool"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scrollbars="vertical">
+
+                    <TableLayout
+                        android:id="@+id/TableLayout_SchoolScores"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:stretchColumns="*">
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/title_usn" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/lvl" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/title_sscr" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Math" />
+                        </TableRow>
+
+                        <TableRow android:id="@+id/math">
+
+                            <TextView
+                                android:id="@+id/nmMath"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="username" />
+
+                            <TextView
+                                android:id="@+id/hilvlMath"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="level" />
+
+                            <TextView
+                                android:id="@+id/scoreMath"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="score" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Eng" />
+                        </TableRow>
+
+                        <TableRow android:id="@+id/eng">
+
+                            <TextView
+                                android:id="@+id/nmeng"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="username" />
+
+                            <TextView
+                                android:id="@+id/hilvlEng"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="level" />
+
+                            <TextView
+                                android:id="@+id/scoreeng"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="score" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Kis" />
+                        </TableRow>
+
+                        <TableRow android:id="@+id/kis">
+
+                            <TextView
+                                android:id="@+id/nmkis"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="username" />
+
+                            <TextView
+                                android:id="@+id/hilvlKis"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="level" />
+
+                            <TextView
+                                android:id="@+id/scorekis"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="score" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Sci" />
+                        </TableRow>
+
+                        <TableRow android:id="@+id/sci">
+
+                            <TextView
+                                android:id="@+id/nmsci"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="username" />
+
+                            <TextView
+                                android:id="@+id/hilvlSci"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="level" />
+
+                            <TextView
+                                android:id="@+id/scoresci"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="scoresci" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/SST" />
+                        </TableRow>
+
+                        <TableRow android:id="@+id/sst">
+
+                            <TextView
+                                android:id="@+id/nmsst"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="username" />
+
+                            <TextView
+                                android:id="@+id/hilvlSst"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="level" />
+
+                            <TextView
+                                android:id="@+id/scoresst"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="score" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/CRE" />
+                        </TableRow>
+
+                        <TableRow android:id="@+id/cre">
+
+                            <TextView
+                                android:id="@+id/nmcre"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="username" />
+
+                            <TextView
+                                android:id="@+id/hilvlCre"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="level" />
+
+                            <TextView
+                                android:id="@+id/scorecre"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="score" />
+                        </TableRow>
+                    </TableLayout>
+                </ScrollView>
+
+                <ListView
+                    android:id="@+id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    />
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout><!-- From: file:/home/irving/AndroidStudioProjects/Ultipedia%20lite/ultipedia/src/main/res/layout/activity_util_scores.xml -->

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-d82ee8dde7ce733f7a32919f1d97ad5908d3b9b2.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-b7827492acfb4bbcf0c0b09b26c64c9da4636b5b.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-18b24a6e6c9bcc6463e3090e426ac14f6d928ceb.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-55f99bcb7d35e6f9d5af415bb40c6976cf27f6d0.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-6b42c4ec71c7a4bab2251cab708c234158aa6a9f.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-e6ec9d3d6e98ee53878df7c0fae31c33c597395a.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/libs/Parse-1.8.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c2cb0bfe37cbefd855b6faa3c9a5be833aba7300">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/Parse-1.8.2-e25a6dc88854236ed76737accf8eb34e6d43c8fc.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-9b081508199168a72bb4422038a4d244ed2e998d.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/libs/bolts-android-1.1.4-javadoc.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f5dd6492c539679411fa30818320b737c410158f">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-javadoc-30908fbcc4d5a6c14224ab6acf0155950c9f49db.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/libs/gcm.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="dfe49c0ea9f51cf3417e282b1a9e721ebf7bfb7b">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/gcm-ec6783ae60762b14f1f6e7b4262a3a6760ce099a.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/libs/ParseCrashReporting-1.8.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ccf9e90414e7bb2cf09f4d7c77c42f70c690e118">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.2-45734e084c3edfb28f08398f550a5f41f494ec32.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/libs/App42_ANDROID_SDK_3.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="23c76db4a356fc2cb820611249945dd9c31807be">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/App42_ANDROID_SDK_3.2-9acfd9583b6bf43e40ae02c5509f28eaec92c89d.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-ff6b5fbffa1d082db023d02e1a25dcfd6ddff273.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-f18ef619ccaef12b4af2cbf042999a13825ea4a2.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-54b886a9db19ea167feabee6f3f95eccd85d4cc6.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-d7c9162413565d0e2840f1dbd77a4acb10656e5d.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-f9f237e2f72e21e2a54416b75f8eb86dba9af35c.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-9ed700c5b1103508b5060190c026b630d29ce3d9.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-b67901d9f5630b4b058c488b7dcf9f35b685a9b3.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-20078c414da6f667020df2071c248579fce4306e.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-337b1526f14edb81b35af12c93095ff7aa2eff84.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-8bf749edec454154b726bc333a3c1f83c234e0e0.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-85ece878cf542e6cd32e7d68cf76493d9656c85c.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-7b1d3a755f36970d8b98db9256ef92fbfa9f062e.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-4f136768cc3286b78280c31150c2151af818c0d4.jar" />
+    </item>
+    <item
+        jar="/home/irving/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-cbacf3f745f55720cfff30cd59aeae141336ac1e.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-f56e28f745ab2c4fa3026bf1b5ca067cd1c1a192.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/classes-cbc0b6bae1df88575ee3183b2135ba26b0424167.jar" />
+    </item>
+    <item
+        jar="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/libs/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/home/irving/AndroidStudioProjects/Ultipedia lite/ultipedia/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-9320976d7ba655567ba44c0517a730291b29ee68.jar" />
+    </item>
+
+</items>

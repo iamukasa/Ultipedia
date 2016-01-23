@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ultipedia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    
+    
+  	<string name="menu_settings">Settings</string>
+  	 <string name="str_next">Next</string>
+  	<string name="title_activity_result">Results!!!</string>
+  	 <string name="Fu">FUN MODE SCORES</string>
+    <string name="shu">SCHOOL MODE SCORES</string>
+  	
+  	
+  	 
+        <string name="chooseSchool">SCHOOL MODE</string>
+    <string name="chooseFun">FUN MODE</string>
+    
+    <string name="start"> </string>
+    <string name="ChoiceA">A</string>
+      <string name="ChoiceB">B</string>
+    <string name="ChoiceC">C</string>
+    <string name="ChoiceD">D</string>
+    <string name="test">NEXT</string>
+    
+     
+    <string name="pick">Set Date of Birth</string>
+    
+        
+      <string name="Username">Enter Username</string>
+       <string name="hintUsername">username</string>
+    <string name="Email">Enter Email</string>
+     <string name="hintEmail">johndoe@example.com</string>
+    <string name="password">Enter password</string>
+     <string name="password2">Enter password again</string>
+     <string name="settings_button_pwd">Set Password</string>
+     <string name="settings_pwd_set">Cancel</string>
+    
+    <string name="gender">Choose Gender</string>
+   
+<string name="settings_pwd_equal">passwords match </string>
+<string name="settings_pwd_not_equal">Passwords DO NOT match Enter password again</string>
+      <string name="sv">Save</string>
+    
+<string
+name="gender_male">Male</string>
+<string
+name="gender_female">Female</string>
+<string
+name="gender_neutral">Prefer Not To Say</string>
+
+ <string name="settings_button_ava">Set Avatar</string>
+ <string name="ChoiceCamera">Take a picture</string>
+      <string name="ChoiceGaleery">Choose  a picture from gallery</string>
+      <string name="exit">Exit</string>
+      <string name="stay">Keep Playing</string>
+      <string name="queE">Are you sure you want to exit?</string>
+      <string name="currentScore">Score</string>
+<string name="title_usn">Player</string>
+<string name="title_sscr">Score</string>
+  	<string name="sry">Oops</string>
+  	<string name="wwrn">You got that Wrong!!! </string>
+  	<string name="sry_content">It seems we have Run out of Questions in the query.Please start playing from the Menu screen</string>
+  	<string name="lvl">Highest level</string>
+  	
+<string name="app_id">494063927396741</string>
+</resources>

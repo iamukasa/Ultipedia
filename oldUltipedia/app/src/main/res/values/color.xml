@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="title_color">#000000</color>
+    <color name="title_glow">#FFE4C4</color>
+    <color name="menu_glow">#A4D5E2</color>
+     <color name="menu_color">#FEFBF8</color>
+    
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+<item android:id="@android:id/progress">
+    <shape
+             android:innerRadiusRatio="3"
+             android:shape="ring"
+             android:thicknessRatio="7.0"
+        >
+           <TextView
+               android:id="@+id/textt"
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_gravity="center"
+               android:layout_weight="1"
+               android:background="@drawable/que"
+               android:gravity="center"
+               android:textColor="#000000"
+                    android:scaleType="fitXY"
+               />
+  <gradient
+             android:startColor="#fb0000"
+             android:endColor="#00FF00"
+             android:centerColor="#fbf400"
+             android:type="sweep"
+              
+             />   
+</shape>
+</item>
+</layer-list>

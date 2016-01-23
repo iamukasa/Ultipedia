@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.oldultipedia"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+     <uses-permission android:name="android.permission.CAMERA"/>
+     <uses-permission android:name="android.permission.GALLERY"/>
+      
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+       
+        >
+        <activity
+            android:name="com.example.oldultipedia.UltiSplash"
+             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+             
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+  	  <activity android:name=".QuizActivityMath"></activity>
+  	  <activity android:name=".UtilScores"></activity>
+  	   <activity android:name=".QuizActivityEng"></activity>
+  	    <activity android:name=".QuizActivityKis"></activity>
+  	     <activity android:name=".QuizActivitySci"></activity>
+  	      <activity android:name=".QuizActivitySocial"></activity>
+  	       <activity android:name=".QuizActivityCre"></activity>
+  	       <activity android:name=".UtilMenu"></activity>
+         <activity android:name=".QuizActivity"></activity>
+         <activity android:name=".Utilhelp"
+             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+             </activity>
+          <activity android:name=".UtilSettings"></activity>
+          <activity android:name=".UtilSubjectPicker"
+               android:theme="@android:style/Theme.Dialog"></activity>
+            <activity android:name=".UtilMode"
+               android:theme="@android:style/Theme.Dialog"></activity>
+           
+        
+    </application>
+
+</manifest>

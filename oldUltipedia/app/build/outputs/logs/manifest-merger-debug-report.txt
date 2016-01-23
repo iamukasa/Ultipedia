@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from com.android.support:appcompat-v7:19.1.0:18:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:10:6
+	android:name
+		ADDED from AndroidManifest.xml:10:23
+uses-permission#android.permission.GALLERY
+ADDED from AndroidManifest.xml:11:6
+	android:name
+		ADDED from AndroidManifest.xml:11:23
+application
+ADDED from AndroidManifest.xml:14:5
+MERGED from com.android.support:appcompat-v7:19.1.0:19:5
+	android:label
+		ADDED from AndroidManifest.xml:17:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:15:9
+	android:icon
+		ADDED from AndroidManifest.xml:16:9
+	android:theme
+		ADDED from AndroidManifest.xml:18:9
+activity#com.example.oldultipedia.UltiSplash
+ADDED from AndroidManifest.xml:21:9
+	android:label
+		ADDED from AndroidManifest.xml:25:13
+	android:theme
+		ADDED from AndroidManifest.xml:23:14
+	android:name
+		ADDED from AndroidManifest.xml:22:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:26:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:27:17
+	android:name
+		ADDED from AndroidManifest.xml:27:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:29:17
+	android:name
+		ADDED from AndroidManifest.xml:29:27
+activity#com.example.oldultipedia.QuizActivityMath
+ADDED from AndroidManifest.xml:33:6
+	android:name
+		ADDED from AndroidManifest.xml:33:16
+activity#com.example.oldultipedia.UtilScores
+ADDED from AndroidManifest.xml:34:6
+	android:name
+		ADDED from AndroidManifest.xml:34:16
+activity#com.example.oldultipedia.QuizActivityEng
+ADDED from AndroidManifest.xml:35:7
+	android:name
+		ADDED from AndroidManifest.xml:35:17
+activity#com.example.oldultipedia.QuizActivityKis
+ADDED from AndroidManifest.xml:36:8
+	android:name
+		ADDED from AndroidManifest.xml:36:18
+activity#com.example.oldultipedia.QuizActivitySci
+ADDED from AndroidManifest.xml:37:9
+	android:name
+		ADDED from AndroidManifest.xml:37:19
+activity#com.example.oldultipedia.QuizActivitySocial
+ADDED from AndroidManifest.xml:38:10
+	android:name
+		ADDED from AndroidManifest.xml:38:20
+activity#com.example.oldultipedia.QuizActivityCre
+ADDED from AndroidManifest.xml:39:11
+	android:name
+		ADDED from AndroidManifest.xml:39:21
+activity#com.example.oldultipedia.UtilMenu
+ADDED from AndroidManifest.xml:40:11
+	android:name
+		ADDED from AndroidManifest.xml:40:21
+activity#com.example.oldultipedia.QuizActivity
+ADDED from AndroidManifest.xml:41:10
+	android:name
+		ADDED from AndroidManifest.xml:41:20
+activity#com.example.oldultipedia.Utilhelp
+ADDED from AndroidManifest.xml:42:10
+	android:theme
+		ADDED from AndroidManifest.xml:43:14
+	android:name
+		ADDED from AndroidManifest.xml:42:20
+activity#com.example.oldultipedia.UtilSettings
+ADDED from AndroidManifest.xml:45:11
+	android:name
+		ADDED from AndroidManifest.xml:45:21
+activity#com.example.oldultipedia.UtilSubjectPicker
+ADDED from AndroidManifest.xml:46:11
+	android:theme
+		ADDED from AndroidManifest.xml:47:16
+	android:name
+		ADDED from AndroidManifest.xml:46:21
+activity#com.example.oldultipedia.UtilMode
+ADDED from AndroidManifest.xml:48:13
+	android:theme
+		ADDED from AndroidManifest.xml:49:16
+	android:name
+		ADDED from AndroidManifest.xml:48:23
